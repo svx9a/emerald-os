@@ -1,31 +1,74 @@
-# Logs
-logs
+# Logs and databases
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.sqlite
+*.db
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.log
-*.zip
-*.ini
+# Node.js
 node_modules/
+pnpm-lock.yaml
+yarn.lock
+*.lock
+
+# Python
 pip/
-scoop/
-vmlogs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System files
+NTUSER.DAT
+ntuser.ini
+*.LOG1
+*.LOG2
+*.ini
+*.lnk
+*.exe
+*.dll
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.rar
+*.7z
+
+# Personal files
+Documents/
+Downloads/
+Pictures/
+Videos/
+Music/
+OneDrive/
+Desktop/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+*.env.local
+
+# Misc
+*.pdf
+*.jpg
+*.png
+*.avif
+*.txt
+*.ps1
+*.bat
+*.sh
+*.md
+*.lnk
+*.tar.gz
+*.blf
+*.regtrans-ms
+*.TMContainer*
+*.cnt.txt
+*.lock
+*.bak
+*.backup
+*.sealed
+*.manifest
