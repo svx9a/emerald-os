@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.log
+*.zip
+*.ini
+node_modules/
+pip/
+scoop/
+vmlogs/
