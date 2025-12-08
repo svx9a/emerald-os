@@ -1,74 +1,57 @@
-# Logs and databases
+# System files
+nul
+nuuid.ini
+useruid.ini
+*.ini
 *.log
-*.sqlite
-*.db
+*.txt
+*.sh
+*.pyc
+*.sealed
+*.manifest
 
-# Node.js
+# Build and dependency files
+pip/
+scoop/
+sdk/
 node_modules/
 pnpm-lock.yaml
 yarn.lock
 *.lock
-
-# Python
-pip/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
-NTUSER.DAT
-ntuser.ini
-*.LOG1
-*.LOG2
-*.ini
-*.lnk
-*.exe
-*.dll
-
-# Build artifacts
-dist/
-build/
 *.zip
 *.rar
 *.7z
 
-# Personal files
-Documents/
-Downloads/
-Pictures/
-Videos/
-Music/
-OneDrive/
-Desktop/
-
-# IDE/Editor
-.vscode/
-.idea/
-*.swp
-
-# Environment files
-.env
-*.env.local
-
-# Misc
-*.pdf
-*.jpg
-*.png
-*.avif
-*.txt
-*.ps1
-*.bat
-*.sh
-*.md
-*.lnk
-*.tar.gz
-*.blf
-*.regtrans-ms
-*.TMContainer*
-*.cnt.txt
-*.lock
+# Local configs and backups
 *.bak
+*-Copy.*
 *.backup
-*.sealed
-*.manifest
+*.json.sealed
+
+# Directories to ignore
+openpdf/
+redirect-theme/
+source/
+sovereign_archive/
+stable-diffusion-webui/
+tauri-app/
+terraform-ec2-2025/
+theme-tools/
+thorium/
+vmlogs/
+xbrain/
+xenna-pay/
+xeta-pay-dashboard/
+xeta_pay_provider_console/
+zed/
+projects/
+python-sdk/
+servers/
+sv9-ace-section-ecom/
+sv9-ace-section-ecom-backup/
+sv9-clean/
+sv9_wrath/
+velrion_sovereignty/
+silvercloud-fusion/
+silversurface/
+qalisa-commerce-1759278672.22155/
