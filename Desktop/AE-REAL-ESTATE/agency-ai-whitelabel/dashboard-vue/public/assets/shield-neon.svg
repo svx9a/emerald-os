@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neon-shield">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#neon-shield)">
+    <!-- Shield Shape -->
+    <path d="M256 50 L100 120 V250 C100 360 256 462 256 462 C256 462 412 360 412 250 V120 L256 50 Z" fill="none" stroke="#3B82F6" stroke-width="20" stroke-linejoin="round"/>
+    <!-- Inner Detail -->
+    <path d="M256 120 L160 160 V240 C160 310 256 380 256 380 C256 380 352 310 352 240 V160 L256 120 Z" fill="#3B82F6" opacity="0.2"/>
+    <path d="M256 180 V320 M190 250 H322" stroke="white" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

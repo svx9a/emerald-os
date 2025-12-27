@@ -1,0 +1,7 @@
+.wrangler
+node_modules
+dist
+.env
+.env.local
+seed.sql
+*.log

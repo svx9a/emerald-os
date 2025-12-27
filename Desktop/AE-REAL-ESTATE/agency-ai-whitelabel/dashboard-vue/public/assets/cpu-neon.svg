@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neon-cpu">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#neon-cpu)">
+    <!-- CPU Body -->
+    <rect x="120" y="120" width="272" height="272" rx="20" fill="none" stroke="#A855F7" stroke-width="20"/>
+    <rect x="170" y="170" width="172" height="172" rx="10" fill="#A855F7" opacity="0.2"/>
+    <!-- Pins -->
+    <path d="M160 120 V80 M256 120 V80 M352 120 V80
+             M160 392 V432 M256 392 V432 M352 392 V432
+             M120 160 H80 M120 256 H80 M120 352 H80
+             M392 160 H432 M392 256 H432 M392 352 H432" 
+          stroke="#A855F7" stroke-width="15" stroke-linecap="round"/>
+    <!-- Core -->
+    <circle cx="256" cy="256" r="40" fill="white" opacity="0.9"/>
+  </g>
+</svg>

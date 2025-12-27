@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neon-zap">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#neon-zap)">
+    <!-- Bolt Shape -->
+    <path d="M320 40 L120 280 H240 L192 472 L392 232 H272 L320 40 Z" fill="none" stroke="#EAB308" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M320 40 L120 280 H240 L192 472 L392 232 H272 L320 40 Z" fill="#EAB308" opacity="0.2"/>
+    <!-- Sparkles -->
+    <circle cx="150" cy="100" r="8" fill="white"/>
+    <circle cx="360" cy="400" r="8" fill="white"/>
+  </g>
+</svg>
